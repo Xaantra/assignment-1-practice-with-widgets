@@ -8,9 +8,9 @@ https://developer.android.com/studio/
 
 ## Technical specifications
 
-The provided starter code is condifured to run on devices with at least
+The provided starter code is configured to run on devices with at least
 Android Pie (API 28). As a result, make sure that you have downloaded
-the appropriate version of the SDK in the SDK Manager. Additionnally,
+the appropriate version of the SDK in the SDK Manager. Additionally,
 you might want to create an Android Virtual Device with this specific
 version of the SDK to run and test your app.
 
