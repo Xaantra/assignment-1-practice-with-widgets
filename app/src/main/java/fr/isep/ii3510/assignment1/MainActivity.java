@@ -71,13 +71,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickUpFont(View view) {
         float fTextSize = textView.getTextSize()/metrics.density;
-        textView.setTextSize(fTextSize+2);
+        if (textView.getTextSize() < 100){
+            textView.setTextSize(fTextSize+2);
+        }
+
 
     }
 
     public void onClickDownFont(View view) {
         float fTextSize = textView.getTextSize()/metrics.density;
-        textView.setTextSize(fTextSize-2);
+        if (textView.getTextSize() > 2){
+            textView.setTextSize(fTextSize-2);
+        }
 
     }
 
